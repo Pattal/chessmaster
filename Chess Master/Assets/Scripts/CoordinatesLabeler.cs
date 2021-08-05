@@ -15,7 +15,7 @@ public class CoordinatesLabeler : MonoBehaviour
         Label = GetComponent<TextMeshPro>();
         DisplayCooardinates();
         ChangeName();
-        Label.enabled = false;
+        //Label.enabled = false;
     }
     void Start()
     {
